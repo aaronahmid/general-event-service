@@ -1,0 +1,35 @@
+[flake8]
+# Maximum line length (79 characters by default)
+max-line-length = 88
+
+# List of error codes to ignore (comma-separated)
+ignore = E203, E501, W503, F403, F401, C901, E402
+
+# Select which errors and warnings are treated as errors (comma-separated)
+select = E,F,W,C
+
+# Specify files or directories to exclude (comma-separated)
+exclude = .git,__pycache__,venv,tests,__init__.py,pydist,build,static,migrations,scripts,json_samples,errors
+
+# Specify additional directories to search for plugins or shareable configurations
+# plugin-directories = 
+
+# Define the complexity limit (McCabe complexity)
+max-complexity = 10
+
+# Enable or disable certain checks
+# (These are just examples; customize as needed)
+enable-extensions = G
+
+# Use a specific formatter for output (default is "default")
+# format = default
+
+# Show source code for each error (default is False)
+show-source = True
+
+# Configure the import order (use a separate extension)
+import-order-style = smarkets
+application-import-names = *.py
+
+# Ignore import * statements
+import-order-ignore-module = \*$

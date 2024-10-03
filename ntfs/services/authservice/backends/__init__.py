@@ -1,0 +1,1 @@
+from .oauth2backend import OAuth2ClientCredentialAuthentication

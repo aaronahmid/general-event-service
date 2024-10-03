@@ -1,0 +1,37 @@
+[
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": { "name": "Booking Personnels", "permissions": [] }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": { "name": "Booking Managers", "permissions": [] }
+    },
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": { "name": "Accountants", "permissions": [] }
+    },
+    {
+        "model": "auth.group",
+        "pk": 4,
+        "fields": { "name": "System Admins", "permissions": [] }
+    },
+    {
+        "model": "auth.group",
+        "pk": 5,
+        "fields": { "name": "Human Resource Managers", "permissions": [] }
+    },
+    {
+        "model": "auth.group",
+        "pk": 6,
+        "fields": { "name": "Owners", "permissions": [] }
+    },
+    {
+        "model": "auth.group",
+        "pk": 7,
+        "fields": { "name": "Operations", "permissions": [] }
+    }
+]

@@ -1,0 +1,35 @@
+services:
+  django:
+    build: .
+    command: daphne -b 0.0.0.0 -p 5555 ws:application
+    ports:
+      - "5555:5555"
+    depends_on:
+      - rabbitmq
+      - postgres
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings
+    env_file:
+      - config/envs/.env.dev
+
+  celery:
+    build: .          # or use the build image from django service 
+    command: celery -A config worker --loglevel=info
+    depends_on:
+      - rabbitmq
+      - django
+      - postgres
+    env_file:
+      - config/envs/.env.dev
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "15672:15672"  # RabbitMQ management dashboard
+      - "5672:5672"    # RabbitMQ service port
+

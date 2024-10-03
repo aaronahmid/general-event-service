@@ -1,0 +1,36 @@
+[
+    {
+        "model": "oauth2_provider.application",
+        "pk": 1,
+        "fields": {
+            "client_id": "Gw7U8h2uBWcdrY2auP8Kb0RJ9AmltZweeF3REOIQ",
+            "user": "9384dc96-5960-456f-8633-7b39a73c7577",
+            "redirect_uris": "https://management-beta.aajexpress.org/oauth2callback/",
+            "client_type": "confidential",
+            "authorization_grant_type": "client-credentials",
+            "client_secret": "pbkdf2_sha256$390000$P1mTz4uOo62T9mhUtGkjKa$FbjmHwwSAzcF59AHSGQAwqX1c74SLfaITIhr/dcu7Fs=",
+            "name": "IAM Booking Client App",
+            "skip_authorization": false,
+            "created": "2024-01-06T18:14:35.184Z",
+            "updated": "2024-01-06T20:58:09.040Z",
+            "algorithm": ""
+        }
+    },
+    {
+        "model": "oauth2_provider.application",
+        "pk": 2,
+        "fields": {
+            "client_id": "d2tFcuN09J5B2D1MAUNZhEkI1xLPmjEwEncy2EIf",
+            "user": "9384dc96-5960-456f-8633-7b39a73c7577",
+            "redirect_uris": "https://www.aajexpress.org",
+            "client_type": "confidential",
+            "authorization_grant_type": "client-credentials",
+            "client_secret": "pbkdf2_sha256$390000$Bd9rMkYWEy82yR0NdSebQY$eUCGMtHXdQU4riuvvPlgXuYFCwTBcA9gQncPGo7mi/c=",
+            "name": "Website Client",
+            "skip_authorization": false,
+            "created": "2024-01-23T16:59:33.628Z",
+            "updated": "2024-01-23T16:59:33.628Z",
+            "algorithm": ""
+        }
+    }
+]

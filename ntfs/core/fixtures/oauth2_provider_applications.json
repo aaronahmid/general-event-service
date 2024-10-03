@@ -1,0 +1,19 @@
+[
+    {
+        "model": "oauth2_provider.application",
+        "pk": 1,
+        "fields": {
+            "client_id": "uT2Zr5BD8DvjL5hWiEn6EUwNZ2miF1AXaOKRvm01",
+            "user": "fc8e4109-bd0e-4d34-8a67-decba7245f6d",
+            "redirect_uris": "https://ntfs-dev.aajexpress.org",
+            "client_type": "confidential",
+            "authorization_grant_type": "client-credentials",
+            "client_secret": "aNvd76WVQ8U1vbbHYUhjMyi7dwTkaBbP5hbUwdK34e9HrZC1kaNP1ENJmLrE7Xop8GAYVbzhIOLEZBePkpWtR8AiuK3mdV0TAAaxohjrQWCgOKHJ5aoNdFvoaOKwjdw0",
+            "name": "Service APP",
+            "skip_authorization": false,
+            "created": "2023-12-14T19:22:00.409Z",
+            "updated": "2023-12-14T19:45:42.434Z",
+            "algorithm": ""
+        }
+    }
+]
