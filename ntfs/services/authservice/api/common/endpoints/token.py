@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from django.utils.translation import gettext_lazy as _
 from django.http import JsonResponse
 from oauth2_provider.views.base import TokenView
